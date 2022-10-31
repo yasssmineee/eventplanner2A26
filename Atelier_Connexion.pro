@@ -28,12 +28,14 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     connection.cpp \
-    partenaire.cpp
+    partenaire.cpp \
+    testgit.cpp
 
 HEADERS += \
         mainwindow.h \
     connection.h \
-    partenaire.h
+    partenaire.h \
+    testgit.h
 
 FORMS += \
         mainwindow.ui
