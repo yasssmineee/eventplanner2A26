@@ -23,8 +23,11 @@
       <height>631</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(165, 255, 225);</string>
+    </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -39,6 +42,9 @@
         <height>16</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;Segoe Print&quot;;</string>
+      </property>
       <property name="text">
        <string>Nom du partenaire</string>
       </property>
@@ -48,9 +54,12 @@
        <rect>
         <x>20</x>
         <y>110</y>
-        <width>131</width>
+        <width>141</width>
         <height>16</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;Segoe Print&quot;;</string>
       </property>
       <property name="text">
        <string>Prénom du partenaire</string>
@@ -59,27 +68,34 @@
      <widget class="QLineEdit" name="le_nom">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>180</x>
         <y>60</y>
         <width>151</width>
         <height>20</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLineEdit" name="le_prenom">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>180</x>
         <y>110</y>
         <width>151</width>
         <height>20</height>
        </rect>
       </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
      </widget>
      <widget class="QLineEdit" name="le_numero">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>180</x>
         <y>200</y>
         <width>151</width>
         <height>20</height>
@@ -128,7 +144,7 @@
      <widget class="QLineEdit" name="l_adresse">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>180</x>
         <y>250</y>
         <width>151</width>
         <height>20</height>
@@ -168,11 +184,14 @@
      <widget class="QLineEdit" name="le_id">
       <property name="geometry">
        <rect>
-        <x>160</x>
+        <x>180</x>
         <y>160</y>
         <width>151</width>
         <height>20</height>
        </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
       </property>
      </widget>
      <widget class="QLabel" name="label_6">
